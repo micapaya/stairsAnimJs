@@ -28,11 +28,11 @@ To play the animation, use the function:
 
 *stairsAnimJs(animationSteps, targetNode, isReverse)**
 
-* animationSteps (Array): _An array of animation step **objects**._
+* animationSteps ([Array]): _An array of animation step **objects**._
 
-* targetNode (DOM Node): _The **DOM node** to which the animations will be applied._
+* targetNode ([DOMNode]): _The **DOM node** to which the animations will be applied._
 
-* isReverse (Boolean): _If **false**, the animations will **play in the order they appear in the array**. If **true**, they **will play in reverse order**._
+* isReverse ([Boolean]): _If **false**, the animations will **play in the order they appear in the array**. If **true**, they **will play in reverse order**._
 
 
 ```javascript
