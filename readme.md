@@ -26,13 +26,13 @@ You can create as many animation steps as you want. Once created, you must group
 
 To play the animation, use the function:
 
-stairsAnimJs(animationSteps, targetNode, isReverse);
+*stairsAnimJs(animationSteps, targetNode, isReverse)**
 
-animationSteps (Array): An array of animation step objects.
+* animationSteps (Array): An array of animation step objects.
 
-targetNode (DOM Node): The DOM node to which the animations will be applied.
+* targetNode (DOM Node): The DOM node to which the animations will be applied.
 
-isReverse (Boolean): If false, the animations will play in the order they appear in the array. If true, they will play in reverse order.
+*isReverse (Boolean): If false, the animations will play in the order they appear in the array. If true, they will play in reverse order.
 
 
 ```javascript
