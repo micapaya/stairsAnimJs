@@ -1,6 +1,6 @@
 
 
-# stairsAnimJs Documentation
+# **stairsAnimJs** Documentation
 
 **stairsAnimJs** is a library for creating multiple animations. Each animation will start only after the previous one has ended.
 
@@ -28,11 +28,11 @@ To play the animation, use the function:
 
 *stairsAnimJs(animationSteps, targetNode, isReverse)**
 
-* animationSteps (Array): An array of animation step objects.
+* animationSteps (Array): _An array of animation step **objects**._
 
-* targetNode (DOM Node): The DOM node to which the animations will be applied.
+* targetNode (DOM Node): _The **DOM node** to which the animations will be applied._
 
-* isReverse (Boolean): __ If false, the animations will play in the order they appear in the array. If true, they will play in reverse order. __
+* isReverse (Boolean): _If **false**, the animations will **play in the order they appear in the array**. If **true**, they **will play in reverse order**._
 
 
 ```javascript
@@ -86,9 +86,11 @@ let isClicked = false;
 
 theTarget.addEventListener('click', async (e) => {
     if (!isClicked) {
+// play in the order
         await stairsAnimJs(animationsProps, theTarget, false);
         isClicked = true;
     } else {
+// play in reverse order
         await stairsAnimJs(animationsProps, theTarget, true);
         isClicked = false;
     }
