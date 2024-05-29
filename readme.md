@@ -32,7 +32,7 @@ To play the animation, use the function:
 
 * targetNode (DOM Node): The DOM node to which the animations will be applied.
 
-* isReverse (Boolean): _ _ If false, the animations will play in the order they appear in the array. If true, they will play in reverse order. _ _
+* isReverse (Boolean): __ If false, the animations will play in the order they appear in the array. If true, they will play in reverse order. __
 
 
 ```javascript
