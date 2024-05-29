@@ -32,7 +32,7 @@ To play the animation, use the function:
 
 * targetNode (DOM Node): The DOM node to which the animations will be applied.
 
-* isReverse (Boolean): If false, the animations will play in the order they appear in the array. If true, they will play in reverse order.
+* isReverse (Boolean): _ _ If false, the animations will play in the order they appear in the array. If true, they will play in reverse order. _ _
 
 
 ```javascript
@@ -103,9 +103,18 @@ The stairsAnimJs function will play the animations in the specified order unless
 
 
 
+## License : 
 
-In this documentation:
+MIT License
 
-- Titles and headers are styled in white on a blue background.
-- Lists are styled with square bullet points.
-- Code blocks are highlighted with a grey background for better readability.
+Copyright (c) [year] [Payage Michaël]
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), limited to usage rights only. 
+The modification of this software, its source code, or associated documentation files (the "Modified Software") is not permitted without the explicit written permission of the author, [Payage Michaël].
+
+Any distribution, reproduction, or sublicense of the Modified Software must retain this license and include the following acknowledgment: 
+"This product includes software developed by [Payage Michaël] (https://github.com/PayageMichaël)."
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+
