@@ -26,11 +26,14 @@ You can create as many animation steps as you want. Once created, you must group
 
 To play the animation, use the function:
 
-```javascript
 stairsAnimJs(animationSteps, targetNode, isReverse);
 animationSteps (Array): An array of animation step objects.
 targetNode (DOM Node): The DOM node to which the animations will be applied.
 isReverse (Boolean): If false, the animations will play in the order they appear in the array. If true, they will play in reverse order.
+
+
+```javascript
+
 Example Usage : 
 
 const animationOne = {
@@ -88,6 +91,7 @@ theTarget.addEventListener('click', async (e) => {
     }
 });
 
+```
 
 ## Additional Notes
 
