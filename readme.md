@@ -1,20 +1,3 @@
-<style>
-    h1, h2, h3 {
-        color: white;
-        background-color: blue;
-        padding: 10px;
-        border-radius: 5px;
-    }
-    ul {
-        list-style-type: square;
-        margin-left: 20px;
-    }
-    code {
-        background-color: #f4f4f4;
-        padding: 2px 5px;
-        border-radius: 3px;
-    }
-</style>
 
 
 # stairsAnimJs Documentation
